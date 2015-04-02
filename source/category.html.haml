@@ -1,0 +1,18 @@
+---
+title: Categories
+pageable: true
+per_page: 12
+---
+
+/ %h3 Blog excepts example
+/ - blog.articles[0...5].each do |article|
+/   %ul.blog-summary
+/     %li
+/       %b
+/         %a{:href => article.url}= article.title
+/       %time= article.date.strftime('%b %e %Y')
+/       = article.summary
+/       %a{:href => article.url} Read more
+%ul
+  - blog.articles.group_by { blog.articles }.each do |articles|
+    %li= link_to "#{category} (#{articles.size})", category_path(category)

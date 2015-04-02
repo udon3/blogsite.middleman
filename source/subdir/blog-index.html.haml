@@ -1,0 +1,22 @@
+---
+title: Blog index page
+description: Front page for the blog section
+---
+
+.two-cols
+	.content
+		-# Intro
+		= partial '_markdowns/subdir-blogs-intro'
+
+		= partial '_templates/partials/blogsummary'
+
+	%aside
+		-# web dev navigation
+		= partial '_templates/partials/subdirnav'
+		= partial '_templates/partials/blognav' 
+		%button.toggle 
+			%span sidebar!
+
+		
+
+		

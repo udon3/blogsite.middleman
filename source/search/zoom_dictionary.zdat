@@ -1,0 +1,687 @@
+  -1
+  -1
+. -1
+, -1
+: -1
+? -1
+! -1
+` -1
+) -1
+[ -1
+{ -1
+; -1
+&#62; -1
+$ -1
+% -1
+@ -1
+# -1
+( -1
+] -1
+} -1
+~ -1
+* -1
++ -1
+- -1
+^ -1
+_ -1
+&#124; -1
+&#38; -1
+= -1
+/ -1
+&#34; -1
+&#39; -1
+\ -1
+&#60; -1
+&#8482; -1
+&#174; -1
+&#169; -1
+&#128; -1
+&#163; -1
+&#165; -1
+&#162; -1
+&#8220; -1
+&#8221; -1
+. -1
+, -1
+: -1
+? -1
+! -1
+` -1
+) -1
+[ -1
+{ -1
+; -1
+&#62; -1
+$ -1
+% -1
+@ -1
+# -1
+( -1
+] -1
+} -1
+~ -1
+* -1
++ -1
+- -1
+^ -1
+_ -1
+&#124; -1
+&#38; -1
+= -1
+/ -1
+&#34; -1
+&#39; -1
+\ -1
+&#60; -1
+&#8482; -1
+&#174; -1
+&#169; -1
+&#128; -1
+&#163; -1
+&#165; -1
+&#162; -1
+&#8220; -1
+&#8221; -1
+. -1
+, -1
+: -1
+? -1
+! -1
+` -1
+) -1
+[ -1
+{ -1
+; -1
+&#62; -1
+$ -1
+% -1
+@ -1
+# -1
+( -1
+] -1
+} -1
+~ -1
+* -1
++ -1
+- -1
+^ -1
+_ -1
+&#124; -1
+&#38; -1
+= -1
+/ -1
+&#34; -1
+&#39; -1
+\ -1
+&#60; -1
+&#8482; -1
+&#174; -1
+&#169; -1
+&#128; -1
+&#163; -1
+&#165; -1
+&#162; -1
+&#8220; -1
+&#8221; -1
+. -1
+, -1
+: -1
+? -1
+! -1
+` -1
+) -1
+[ -1
+{ -1
+; -1
+&#62; -1
+$ -1
+% -1
+@ -1
+# -1
+( -1
+] -1
+} -1
+~ -1
+* -1
++ -1
+- -1
+^ -1
+_ -1
+&#124; -1
+&#38; -1
+= -1
+/ -1
+&#34; -1
+&#39; -1
+\ -1
+&#60; -1
+&#8482; -1
+&#174; -1
+&#169; -1
+&#128; -1
+&#163; -1
+&#165; -1
+&#162; -1
+&#8220; -1
+&#8221; -1
+and -1 0
+or -1 0
+the -1 1
+The
+it -1 1
+its
+is -1 0
+an -1 0
+on -1 1
+one
+we -1 0
+us -1 3
+uses
+using
+use
+to -1 0
+of -1 0
+ha -1 1
+has
+be -1 0
+all -1 1
+All
+for -1 1
+For
+in -1 1
+In
+as -1 0
+so -1 0
+ar -1 1
+are
+that -1 0
+can -1 0
+you -1 0
+at -1 0
+by -1 0
+have -1 0
+with -1 0
+into -1 0
+about 0 1
+About
+content 18 2
+Content
+contents
+about.html 84 0
+some 94 1
+Some
+sampl 112 2
+sample
+Sample
+markdown 146 2
+Markdown
+MarkDown
+thi 188 2
+This
+this
+h -1 1
+H
+1 -1 0
+2 -1 0
+3 -1 0
+lorem 270 1
+Lorem
+ipsum 320 0
+dolor 370 0
+sit 412 0
+amet 454 0
+consectetur 496 0
+adipisc 538 1
+adipiscing
+elit 580 0
+curabitur 622 1
+Curabitur
+maximu 664 1
+maximus
+porttitor 706 0
+congu 748 1
+congue
+donec 790 1
+Donec
+quam 832 0
+nisl 874 0
+viverra 916 0
+qui 958 1
+quis
+nec 1000 0
+vestibulum 1042 1
+Vestibulum
+tempor 1084 0
+laoreet 1126 0
+cursu 1168 1
+cursus
+velit 1210 0
+id 1252 0
+tristiqu 1294 1
+tristique
+pellentesqu 1336 1
+Pellentesque
+eu 1378 0
+porta 1420 0
+tellu 1462 1
+tellus
+a -1 1
+A
+ultrici 1504 1
+ultricies
+enim 1546 0
+aliquam 1588 1
+Aliquam
+ut 1630 0
+feli 1672 1
+felis
+sagitti 1714 1
+sagittis
+conval 1756 1
+convallis
+nequ 1798 1
+neque
+vel 1840 0
+semper 1882 0
+pharetra 1924 0
+arcu 1966 0
+et 2008 0
+pretium 2050 0
+mauri 2092 1
+Mauris
+bibendum 2134 0
+justo 2176 0
+non 2218 0
+egesta 2260 1
+egestas
+sed 2302 1
+Sed
+leo 2344 0
+vehicula 2386 0
+accumsan 2428 0
+augu 2470 1
+augue
+urna 2512 0
+tortor 2554 0
+blandit 2596 0
+interdum 2638 0
+dapibu 2680 1
+dapibus
+ero 2722 1
+eros
+dictum 2764 0
+nisi 2806 0
+sodal 2848 1
+sodales
+blockquot 2890 1
+Blockquote
+suspendiss 2916 1
+Suspendisse
+sem 2942 0
+consectetu 2968 1
+consectetuer
+libero 2994 0
+luctu 3020 1
+luctus
+list 3046 2
+Lists
+listing
+item 3080 0
+first 3106 0
+second 3140 0
+third 3166 0
+code 3192 1
+Code
+block 3202 0
+ordinari 3220 2
+Ordinary
+ordinary
+paragraph 3238 0
+follow 3248 1
+followed
+inlin 3258 1
+inline
+sentenc 3268 1
+sentence
+contain 3278 1
+containing
+span 3288 0
+bit 3298 0
+insert 3340 0
+partial 3350 1
+partials
+includ 3368 1
+include
+some-partial-content.html 3378 0
+sitemap 3388 0
+access 3470 4
+accessibility
+Accessibility
+accessible
+accessed
+contact 3552 1
+Contact
+2014 3634 0
+suko 3716 1
+Suko
+443 3798 0
+work 3880 0
+progress 3898 0
+websit 3916 1
+website
+been 3934 0
+design 3952 1
+designed
+usabl 3962 1
+usable
+user 3972 1
+users
+browser 3982 2
+Browser
+browsers
+support 3992 0
+site 4002 1
+Site
+built 4020 0
+well 4046 0
+current 4056 0
+ie 4066 1
+IE
+8 -1 0
+should 4084 0
+7 -1 0
+although 4094 0
+visual 4104 0
+element 4114 1
+elements
+mai 4124 1
+may
+not 4142 0
+render 4160 1
+rendered
+exactli 4170 1
+exactly
+devic 4180 2
+Devices
+device
+respons 4190 1
+responsive
+web 4200 0
+techniqu 4210 1
+technique
+which 4220 0
+mean 4230 1
+means
+view 4240 1
+viewed
+regardless 4250 0
+mobil 4260 1
+mobile
+tablet 4278 1
+tablets
+desktop 4288 0
+colour 4298 2
+Colours
+colours
+avoid 4308 1
+avoids
+combin 4318 1
+combinations
+could 4328 0
+present 4346 0
+difficulti 4356 1
+difficulties
+keyboard 4366 1
+Keyboard
+vs 4376 0
+mous 4386 1
+mouse
+endeavour 4396 1
+endeavours
+ensur 4406 1
+ensure
+without 4416 0
+javascript 4426 1
+Javascript
+javacsript 4436 1
+Javacsript
+turn 4446 1
+turned
+off 4456 0
+further 4466 1
+Further
+inform 4476 1
+information
+more 4486 0
+regard 4504 1
+regarding
+visit 4514 0
+guidelin 4524 1
+guidelines
+section 4534 1
+sections
+w -1 1
+W
+c's 4600 1
+C's
+accessibility.html 4610 0
+page 4620 1
+pages
+set 4670 1
+setting
+up 4688 0
+simpleform 4738 1
+SimpleForm
+it's 4756 1
+It's
+veri 4766 1
+very
+basic 4776 0
+form 4786 0
+if 4812 1
+If
+evil 4830 0
+machin 4840 1
+machine
+pleas 4850 1
+please
+leav 4860 1
+leave
+field 4870 0
+blank 4880 0
+do 4890 0
+chang 4900 2
+change
+changing
+name 4918 1
+Name
+email 4928 1
+Email
+messag 4938 1
+Message
+contact.html 4948 0
+homepag 4958 1
+Homepage
+skeleton 4968 0
+setup 4978 0
+static 4988 0
+blog 4998 2
+Blog
+blogs
+middleman 5056 1
+Middleman
+gener 5066 1
+generator
+extens 5076 1
+extension
+sass 5086 1
+SASS
+haml 5096 1
+HAML
+templat 5106 2
+templates
+template
+search 5132 1
+Search
+zoom 5142 1
+Zoom
+free 5152 0
+version 5162 0
+see 5172 0
+readme.md 5190 1
+README.md
+tricki 5200 1
+tricky
+kept 5210 0
+simpl 5220 1
+simple
+still 5238 0
+such 5248 0
+there 5258 0
+few 5268 0
+area 5286 1
+areas
+need 5296 0
+sort 5306 1
+sorted
+fix 5316 1
+fixed
+sticki 5326 1
+sticky
+nav 5336 0
+issu 5346 1
+issue
+focu 5356 1
+focus
+disabl 5366 1
+disabled
+until 5376 0
+tidi 5386 1
+tidy
+updat 5396 1
+update
+readm 5414 1
+README
+file 5424 0
+home 5458 1
+Home
+index.html 5468 0
+exampl 5486 2
+Example
+example
+intro 5520 0
+show 5538 1
+shows
+summari 5564 1
+summary
+load 5590 1
+loading
+from 5616 0
+my-subdirectory 5642 0
+2015 5668 0
+webdev 5694 1
+Webdev
+index 5744 0
+subsect 5794 2
+Subsection
+subsection
+navig 5844 1
+navigation
+dev 5878 1
+Dev
+6 -1 0
+feb 5912 1
+Feb
+15 5946 0
+5 -1 0
+tag 5980 1
+Tags
+two 6014 0
+sidebar 6048 0
+blog-example-1.html 6098 1
+Blog-example-1.html
+hola 6108 1
+Hola
+amigo 6126 1
+amigos
+est 6144 1
+Este
+es 6162 0
+el 6180 0
+segundo 6198 0
+exemplo 6216 0
+de 6234 0
+blog-example-2.html 6252 1
+Blog-example-2.html
+new 6262 1
+New
+ad 6272 1
+added
+creat 6282 1
+creating
+appropri 6292 1
+appropriate
+year 6302 0
+folder 6312 0
+subdir 6322 0
+directori 6332 1
+directory
+locat 6342 1
+location
+sure 6352 0
+config.rb 6362 0
+activ 6372 1
+activate
+post.haml 6382 0
+sourc 6400 1
+source
+layout 6410 1
+layouts
+categori 6420 1
+Category
+dynam 6430 1
+dynamically
+respect 6440 1
+respective
+root 6450 0
+latest 6460 1
+Latest
+post 6470 1
+posts
+read 6480 1
+Read
+blog-index.html 6490 0
+subdirectori 6500 2
+Subdirectory
+subdirectory
+land 6526 2
+landing
+Landing
+just 6536 0
+singl 6546 1
+single
+subnavig 6556 1
+subnavigation
+look 6566 0
+like 6576 0
+thei 6586 1
+they
+same 6596 0
+but 6606 0
+don't 6616 0
+other 6626 0
+master.haml 6636 0
+i'd 6646 1
+I'd
+had 6656 0
+problem 6666 1
+problems
+when 6676 0
+time 6686 0
+revisit 6696 0
+rectifi 6706 1
+rectifying
+1.html 6716 0
+anoth 6726 1
+Another
+2.html 6736 0

@@ -1,0 +1,38 @@
+//-----------------footer----------------------
+
+footer {
+	background: $black;
+	min-height: 50px;
+	text-align: center;	
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	.copyright {
+		float: right;
+		margin-right: 2em;
+	}
+	nav {
+		max-width: 940px;
+		width: 75%;
+		@include inline-block;
+		ul {
+			@extend %clearfix;
+			width: 100%;
+
+			li {
+				@include inline-block;
+				@include fontsize($txt-m, 1.4);		
+				float: left;
+				text-align: center;
+				width: 33%;
+				a {
+					color: $white;
+					display: block;
+					padding: 10px 0;
+				}
+			}
+		}
+
+	}
+}
+

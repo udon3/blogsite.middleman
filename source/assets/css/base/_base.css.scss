@@ -1,0 +1,48 @@
+//---------------Base.css.scss------------
+//Default settings of generic stuff (note: the reset is in a separate partial preceding this)
+
+/* -- http://smacss.com/book/categorizing --
+Base rules are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this.
+
+Examples of Base Styles
+html, body, form { margin: 0; padding: 0; }
+input[type=text] { border: 1px solid #999; }
+a { color: #039; }
+a:hover { color: #03C; }
+*/
+
+// Box-sizing:border-box for all (http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+	background-color: $black;
+	color: $white;
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+// links
+a {
+	color: $color-dk;
+	text-decoration: underline;
+	&:hover, &:focus {
+		color: $color-lt;
+	}
+}
+// lists
+
+ul, ol {
+	padding-left: 2em;
+}
+
+pre {
+	margin: 0;
+	font-size: 1.4em;
+	background-color: $color-faint;
+	padding: .5em;
+}

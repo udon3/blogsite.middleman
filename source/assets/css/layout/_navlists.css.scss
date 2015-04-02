@@ -1,0 +1,40 @@
+//-------------------navigation lists------------------------
+// generic nav styles
+// (main header nav, side nav, footer nav, sitemap)
+
+nav	ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	li {
+		@extend %headingthin;
+		list-style: none;
+		a {				
+				cursor: pointer;					
+				text-decoration: none;
+		}
+	}
+}
+
+//header nav specific (see _header.css.scss)
+
+
+//side nav specific
+
+
+/* webdev section nav*/
+.subdir .nav-box {
+	ul ul {
+		padding-left: 1em;
+	}
+}
+.subdir_index .dev-i,
+.subdir_section1 .dev-t,
+.subdir_section2 .dev-r,
+.subdir_blog-index .dev-b {
+	font-weight: bold;
+}
+.subdir_blog-index #blognav p {
+	display: none;
+}
+//footer nav specific

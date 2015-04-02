@@ -1,0 +1,24 @@
+
+#blognav.blog
+	%h3 Blog navigation
+	%p 
+		%a{href: '/subdir/blog-index.html'} Dev Blog index
+	%nav
+		%ul
+			- blog.articles[0...8].each do |article|
+				%li 
+					= link_to article.title, '/'+ article.path
+					-#= link_to article.title, article.path
+
+					%time= article.date.strftime('%e %b %y')
+
+		
+		.tags-list
+			%h3 Tags
+
+			%ul
+				- blog.tags.each do |tag, articles|
+					%li
+						= link_to tag, tag_path(tag)
+						(#{articles.size}) &nbsp;
+

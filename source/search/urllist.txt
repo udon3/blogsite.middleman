@@ -1,0 +1,10 @@
+http://blogsite.middleman/about.html
+http://blogsite.middleman/accessibility.html
+http://blogsite.middleman/contact.html
+http://blogsite.middleman/index.html
+http://blogsite.middleman/subdir/blog/2015/example/Blog-example-1.html
+http://blogsite.middleman/subdir/blog/2015/example/Blog-example-2.html
+http://blogsite.middleman/subdir/blog-index.html
+http://blogsite.middleman/subdir/index.html
+http://blogsite.middleman/subdir/section1.html
+http://blogsite.middleman/subdir/section2.html

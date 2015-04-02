@@ -1,0 +1,17 @@
+---
+title: Subdirectory landing page
+description: Landing page for this section
+---
+
+.two-cols
+	.content
+		= partial '_markdowns/subdir-index-categories'
+
+		= partial '_templates/partials/blognav'
+		
+
+	%aside
+		-# web dev navigation
+		= partial '_templates/partials/subdirnav'
+		%button.toggle 
+			%span sidebar!

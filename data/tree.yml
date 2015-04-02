@@ -1,0 +1,52 @@
+---
+_markdowns:
+  _about.md: /_markdowns/_about.md
+  _accessibility.md: /_markdowns/_accessibility.md
+  _home-to-do-list.md: /_markdowns/_home-to-do-list.md
+  _home.md: /_markdowns/_home.md
+  _sitemap.md: /_markdowns/_sitemap.md
+  _subdir-blogs-intro.md: /_markdowns/_subdir-blogs-intro.md
+  _subdir-index-categories.md: /_markdowns/_subdir-index-categories.md
+  _subdir-section1.md: /_markdowns/_subdir-section1.md
+  _subdir-section2.md: /_markdowns/_subdir-section2.md
+  _test.md: /_markdowns/_test.md
+_templates:
+  partials:
+    _blognav.haml: /_templates/partials/_blognav.haml
+    _blogsummary.haml: /_templates/partials/_blogsummary.haml
+    _blogtags.haml: /_templates/partials/_blogtags.haml
+    _footer.haml: /_templates/partials/_footer.haml
+    _header.haml: /_templates/partials/_header.haml
+    _subdirnav.haml: /_templates/partials/_subdirnav.haml
+about.html.haml: /about.html.haml
+accessibility.html.haml: /accessibility.html.haml
+category.html.haml: /category.html.haml
+contact.html.haml: /contact.html.haml
+index.html.haml: /index.html.haml
+search:
+  _search_template.html: /search/_search_template.html
+  search.asp: /search/search.asp
+  search_template.html.haml: /search/search_template.html.haml
+  settings.asp: /search/settings.asp
+  sitemap_index.xml: /search/sitemap_index.xml
+  urllist.txt: /search/urllist.txt
+  zoom_dictionary.zdat: /search/zoom_dictionary.zdat
+  zoom_for_IIS_local.zcfg: /search/zoom_for_IIS_local.zcfg
+  zoom_for_live.zcfg: /search/zoom_for_live.zcfg
+  zoom_for_wamp_local.zcfg: /search/zoom_for_wamp_local.zcfg
+  zoom_pagedata.zdat: /search/zoom_pagedata.zdat
+  zoom_pageinfo.zdat: /search/zoom_pageinfo.zdat
+  zoom_pagetext.zdat: /search/zoom_pagetext.zdat
+  zoom_wordmap.zdat: /search/zoom_wordmap.zdat
+sitemap.html.haml: /sitemap.html.haml
+subdir:
+  blog:
+    '2015':
+      Blog-example-1.markdown: /subdir/blog/2015/Blog-example-1.markdown
+      Blog-example-2.markdown: /subdir/blog/2015/Blog-example-2.markdown
+  blog-index.html.haml: /subdir/blog-index.html.haml
+  index.html.haml: /subdir/index.html.haml
+  section1.html.haml: /subdir/section1.html.haml
+  section2.html.haml: /subdir/section2.html.haml
+tags.html.haml: /tags.html.haml
+thankyou.html.haml: /thankyou.html.haml

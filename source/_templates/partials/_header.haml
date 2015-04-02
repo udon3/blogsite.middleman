@@ -1,0 +1,40 @@
+%header
+	.header-bg
+		= image_tag('traincemetary_invert.jpg', alt: 'train cemetary, Bolivia', class: 'header-background')
+
+	-# check if current page is homepage - set h1 logo
+	-if current_page.path == 'index.html'
+		%h1.logo
+			BLOGSITE
+	-else
+		.logo
+			BLOGSITE
+	
+
+	
+	-# burger button
+	%button.icon-menu
+	-#  nav/burger nav wrapper
+	#headwrap
+
+		.centre
+			-# search
+			%form{method: 'GET', action: '/search/search.php'} 
+				%label{for: 'zoom_query', class: 'is-hidden'} Search
+				%input.header_search{id: 'zoom_query', name: 'zoom_query', placeholder: 'Search site...', type:'search'}	
+
+			-# navigation
+			%nav
+				%ul
+					%li{class: 'hm'}
+						-# these links are using 'Ruby 1.9' hash syntax (original hash syntax used the 'rocket hash' => )
+						%a{href: '/'} home				
+					%li{class: 'ab'}
+						%a{href: '/about.html'} about
+					%li{class: 'wd'}
+						%a{href: '/subdir/'} subdir
+					%li{class: 'ct'}
+						%a{href: '/contact.html'} contact
+
+
+

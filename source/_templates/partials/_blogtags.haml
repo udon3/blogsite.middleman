@@ -1,0 +1,10 @@
+-# Tags list
+.tags-list
+	%h3 Tags
+
+	%ul
+		- blog.tags.each do |tag, articles|
+			%li
+				= link_to tag, tag_path(tag)
+				(#{articles.size}) &nbsp;
+

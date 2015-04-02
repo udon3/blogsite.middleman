@@ -1,0 +1,30 @@
+---
+title: Contact
+---
+
+
+
+
+.content
+	:markdown
+		This page is set up to use [SimpleForm](https://getsimpleform.com/). It's a very basic contact form. 
+	
+	%form{id: 'contact-form', action: 'https://getsimpleform.com/messages?form_api_token=xxxYourTokenHerexxx', method: 'post'}
+		%input{type:'hidden', name: 'redirect_to', value: 'http://full/live/path/to/thankyou.html'}
+
+		-# CSS-hidden inputs to fool spambots:
+		%label{for: 'foolbot1', class: 'is-hidden'} If you are not an evil machine, please leave this field blank
+		%input{type:'text', name: 'foolbot2', id: 'foolbot2', class: 'is-hidden'}/			
+		%label{for: 'foolbot2', class: 'is-hidden'} If you are not an evil machine, please leave do not change this field
+		%input{type:'text', name: 'foolbot2', id: 'foolbot2',  value: 'http://', class: 'is-hidden'}/
+
+		%label{for: 'fname'} Name
+		%input{type: 'text', name: 'fname', id: 'fname'}/
+
+		%label{for: 'femail'} Email
+		%input{type: 'email', name: 'femail', id: 'femail'}/
+
+		%label{for: 'fmessage'} Message
+		%textarea{name: 'fmessage', id: 'fmessage'}
+		%input{type: 'submit', value: 'Submit form'}/
+		

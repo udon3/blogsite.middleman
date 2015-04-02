@@ -1,0 +1,17 @@
+-#Blogs excerts (latest 3 only - used in blog-index) (for blog summary in tags page, see tags.html.haml)
+%h3 Latest posts
+
+%ul.blog.blog-summary
+	- blog.articles[0...3].each do |article|
+		%li
+			%h4
+				%a{:href => article.url}= article.title
+			%time= article.date.strftime('%e %b %Y')
+			= article.summary
+
+			.tags
+				%b Tags:
+				- article.tags.each do |tag|
+					= link_to tag, tag_path(tag)
+
+			%a{:href => article.url} Read more

@@ -1,0 +1,13 @@
+//the stylesheet for lt IE9 only - fixes the mediaquery issue
+
+$old-ie: true;
+$fix-mqs: laptop; 
+	/* 
+		old IEs will use contents of @include bp(laptop){...} as default, but this can be overridden by setting the second arg in bp($width, $do-for-ie) to 'true':
+		e.g. 
+		@inlcude bp(phablet, true){
+			//this content block will be built/added to all-old-ie.css 
+		}; 
+
+	*/
+@import 'all';

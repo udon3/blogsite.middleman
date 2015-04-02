@@ -1,0 +1,16 @@
+//--------------------module----------------
+//generic module styles (if any)
+//create a partial for each separate module
+/* 
+Modules are the reusable, modular parts of our design. 
+They are the callouts, the sidebar sections, the product lists and so on. 
+
+Naming convention: [use a good but short descriptive name, but if it's a variation on another module, use that module name as prefix]
+ */
+
+
+// grey background box
+.aside-box {
+	background: $color-faint;
+	padding: 1em;
+}
