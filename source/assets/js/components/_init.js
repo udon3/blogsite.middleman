@@ -1,16 +1,16 @@
 //INIT
 
 $(document).ready(function(){
-	window.SUKO443.Utils.detectWindowWidth();
-	window.SUKO443.Navigation.navShowHide();
+	window.BLOGSITE.Utils.detectWindowWidth();
+	window.BLOGSITE.Navigation.navShowHide();
 	
 	// sticky nav for non-mobile/sml-tablet only - issue with focus on contact form page needs fixing (something to do with keyboards appearing?)
 	if(screenIs =='large'){
-		window.SUKO443.Navigation.stickyNav();
+		window.BLOGSITE.Navigation.stickyNav();
 	}
-	//window.SUKO443.Navigation.stickyNav();
+	//window.BLOGSITE.Navigation.stickyNav();
 
-	window.SUKO443.Utils.setUpValidation();
+	window.BLOGSITE.Utils.setUpValidation();
 
 
 	//only call once on resize:
@@ -21,8 +21,8 @@ $(document).ready(function(){
 	});
 	function resizeComplete(){
 	  //now run the function:
-	  window.SUKO443.Utils.detectWindowWidth();
-	  window.SUKO443.Navigation.navShowHide();
+	  window.BLOGSITE.Utils.detectWindowWidth();
+	  window.BLOGSITE.Navigation.navShowHide();
 
 	  //console.debug(isMobile);
 	}
@@ -30,7 +30,7 @@ $(document).ready(function(){
 });
 
 
-SUKO443.Misc.toggleElement('toggle'); 
+BLOGSITE.Misc.toggleElement('toggle'); 
 
 
 //consider using FastClick if supporting mobile (to remove click delays on browsers with touch UIs):

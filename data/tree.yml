@@ -24,7 +24,6 @@ category.html.haml: /category.html.haml
 contact.html.haml: /contact.html.haml
 index.html.haml: /index.html.haml
 search:
-  _search_template.html: /search/_search_template.html
   search.asp: /search/search.asp
   search_template.html.haml: /search/search_template.html.haml
   settings.asp: /search/settings.asp
@@ -32,8 +31,7 @@ search:
   urllist.txt: /search/urllist.txt
   zoom_dictionary.zdat: /search/zoom_dictionary.zdat
   zoom_for_IIS_local.zcfg: /search/zoom_for_IIS_local.zcfg
-  zoom_for_live.zcfg: /search/zoom_for_live.zcfg
-  zoom_for_wamp_local.zcfg: /search/zoom_for_wamp_local.zcfg
+  zoom_for_WAMP_local.zcfg: /search/zoom_for_WAMP_local.zcfg
   zoom_pagedata.zdat: /search/zoom_pagedata.zdat
   zoom_pageinfo.zdat: /search/zoom_pageinfo.zdat
   zoom_pagetext.zdat: /search/zoom_pagetext.zdat

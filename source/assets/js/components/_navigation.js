@@ -1,5 +1,5 @@
 
-SUKO443.Navigation = {
+BLOGSITE.Navigation = {
 	/*
 	*	show/hide navigation 
 	*		dependency: Utils.detectWindowWidth()
@@ -18,7 +18,7 @@ SUKO443.Navigation = {
 			$headwrap.addClass('is-collapsed mobile');
 			$button.removeClass('is-hidden');
 			//Run the mobile nav function
-			window.SUKO443.Navigation.mobileNav($button, $headwrap);
+			window.BLOGSITE.Navigation.mobileNav($button, $headwrap);
 		}
 		
 

@@ -1,11 +1,11 @@
-SUKO443.Misc = {
+BLOGSITE.Misc = {
 
 	/*
 	*	toggle element 
 	*		add or remove 'is-hidden', toggle class on button
 	*		any button/toggler element with class .toggle has this function
 	*		The button/toggler must be a direct descendant of element to toggle
-	*		SUKO443.Misc.toggleElement('toggle');
+	*		BLOGSITE.Misc.toggleElement('toggle');
 	*/
 	toggleElement: function(classname){
 

@@ -1,4 +1,4 @@
-SUKO443.Utils = {
+BLOGSITE.Utils = {
 	/*_setGlobalVars: function(global) {
 	  return function(value) {
 	    global.someVarName = value;
@@ -14,7 +14,7 @@ SUKO443.Utils = {
 	//window width detection:
 	//used with navShowHide - navigation.js
 	detectWindowWidth: function(){
-		var width = SUKO443.Utils._getWindowWidth();
+		var width = BLOGSITE.Utils._getWindowWidth();
 
 		if (width < 600) {
 			isMobile = true;
