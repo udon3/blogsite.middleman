@@ -37,11 +37,13 @@ GEM
     haml (4.0.5)
       tilt
     hike (1.2.3)
-    hitimes (1.2.2)
+    hitimes (1.2.2-x86-mingw32)
     hooks (0.4.0)
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
     i18n (0.6.11)
+    jslint (1.2.0)
+      json
     json (1.8.1)
     kramdown (1.5.0)
     listen (2.8.3)
@@ -104,10 +106,14 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rainbow (2.0.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     sass (3.4.9)
+    scss-lint (0.35.0)
+      rainbow (~> 2.0)
+      sass (~> 3.4.1)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -138,10 +144,12 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  jslint (~> 1.2.0)
   middleman (~> 3.3.7)
   middleman-blog (= 3.5.3)
   middleman-livereload (~> 3.1.0)
   middleman-navtree
   nokogiri
+  scss-lint
   tzinfo-data
   wdm (~> 0.1.0)

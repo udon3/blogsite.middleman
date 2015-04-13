@@ -33,6 +33,8 @@ $(document).ready(function(){
 BLOGSITE.Misc.toggleElement('toggle'); 
 
 
+
+
 //consider using FastClick if supporting mobile (to remove click delays on browsers with touch UIs):
 //http://ftlabs.github.io/fastclick/
 /*

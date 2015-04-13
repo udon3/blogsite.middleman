@@ -7,15 +7,17 @@ Naming convention prefix: l- or grid-
 */
 
 //main centered area
-main, header, footer {
+main, 
+header, 
+footer {
 	font-size: 100%;
 	width: 100%;
 }
 #centre {
 	padding: 0 1em;
 	@include bp(phablet, true){
-  	padding: 0 2em; 
-  } 
+		padding: 0 2em; 
+	} 
 }
 
 
@@ -23,17 +25,17 @@ main, header, footer {
 #centre, 
 header nav, 
 footer nav,
-.centre {  
+.centre {	
 	@include bp(phablet, true){	
 		margin: 0 auto;
-	  max-width: 940px;
-	  width: auto;
-	  padding: 0 2em; 
+		max-width: 940px;
+		width: auto;
+		padding: 0 2em; 
 	}
 	@include bp(tablet, true){	
 		width: 90%;
 		padding: 0;
 	}
-  
+	
 }
 

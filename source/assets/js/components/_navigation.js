@@ -26,7 +26,7 @@ BLOGSITE.Navigation = {
 
 		$button.on(function(){
 			//$headwrap.removeClass('is-hidden');
-		})
+		});
 	},
 	/*
 	*	mobile nav show hide
@@ -92,7 +92,7 @@ BLOGSITE.Navigation = {
 		}
 	}
 
-}
+};
 
 
 //window width detection:

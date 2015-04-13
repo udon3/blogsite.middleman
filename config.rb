@@ -54,6 +54,7 @@ helpers do
   end
 end
 
+# set directories for helpers (stylesheet_link_tag, javascript_include_tag, image_tag)
 set :css_dir, 'assets/css'
 
 set :js_dir, 'assets/js'
@@ -62,6 +63,7 @@ set :images_dir, 'assets/images'
 
 set :markdown, auto_ids: false
 
+# set master template for all pages (can be overridden in directives below - c.f. blog)
 page '*', :layout => '_templates/layouts/master'
 
 #enable blogging with middleman blog ext.
@@ -91,16 +93,14 @@ end
 #enable navtree extension (https://github.com/bryanbraun/middleman-navtree)
 activate :navtree 
 
-#enable middleman-deploy for deployment to server
-
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   #activate :asset_hash     #(this will add a GUID type code to asset file names - tricky if a build-independent page, e.g. search results, needs to access them.)

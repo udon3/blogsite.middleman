@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'icon';
-	src:url('fonts/icons/icon.eot?-3v8vnt');
-	src:url('fonts/icons/icon.eot?#iefix-3v8vnt') format('embedded-opentype'),
+	src: url('fonts/icons/icon.eot?-3v8vnt');
+	src: url('fonts/icons/icon.eot?#iefix-3v8vnt') format('embedded-opentype'),
 		url('fonts/icons/icon.woff?-3v8vnt') format('woff'),
 		url('fonts/icons/icon.ttf?-3v8vnt') format('truetype'),
 		url('fonts/icons/icon.svg?-3v8vnt#icon') format('svg');
@@ -9,7 +9,8 @@
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'], 
+[class*=' icon-'] {
 	font-family: 'icon';
 	speak: none;
 	font-style: normal;
@@ -18,38 +19,38 @@
 	text-transform: none;
 	line-height: 1;
 
-	/* Better Font Rendering =========== */
+	// Better Font Rendering =========== 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-bubble:before {
-	content: "\e601";
+	content: '\e601';
 }
 .icon-quotes-left:before {
-	content: "\e602";
+	content: '\e602';
 }
 .icon-search:before {
-	content: "\e603";
+	content: '\e603';
 }
 .icon-bug:before {
-	content: "\e604";
+	content: '\e604';
 }
 .icon-menu:before {
-	content: "\e600";
+	content: '\e600';
 }
 .icon-smiley:before {
-	content: "\e605";
+	content: '\e605';
 }
 .icon-sad:before {
-	content: "\e606";
+	content: '\e606';
 }
 .icon-neutral:before {
-	content: "\e607";
+	content: '\e607';
 }
 .icon-arrow-right:before {
-	content: "\e608";
+	content: '\e608';
 }
 .icon-arrow-left:before {
-	content: "\e609";
+	content: '\e609';
 }

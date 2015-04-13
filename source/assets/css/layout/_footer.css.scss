@@ -18,21 +18,20 @@ footer {
 		ul {
 			@extend %clearfix;
 			width: 100%;
-
-			li {
-				@include inline-block;
-				@include fontsize($txt-m, 1.4);		
-				float: left;
-				text-align: center;
-				width: 33%;
-				a {
-					color: $white;
-					display: block;
-					padding: 10px 0;
-				}
-			}
 		}
+	}
 
+	li {
+		@include inline-block;
+		@include fontsize($txt-m, 1.4);		
+		float: left;
+		text-align: center;
+		width: 33%;
+		a {
+			color: $white;
+			display: block;
+			padding: 10px 0;
+		}
 	}
 }
 

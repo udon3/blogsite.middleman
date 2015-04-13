@@ -3,140 +3,120 @@
 
 
 main {
-  background-color: $white;
-  color: $color-dk;
-  overflow-x: hidden;
-  position: relative;
-  z-index: 1;
+	background-color: $white;
+	color: $color-dk;
+	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
 }
 .content {
-  margin: 5em 0;
-  //padding: 0 2em;
+	margin: 5em 0;
+	//padding: 0 2em;
 }
 
 .content a {
-  &:hover, &:focus {
-    color: $color-hilite;
-  }
-  
+	&:hover, 
+	&:focus {
+		color: $color-hilite;
+	}
+	
 }
 
 
 //make the aside box off page with a button to bring into view
 
 aside {  
-  @include transition(all 0.3s ease-in-out);
+	@include transition(all 0.3s ease-in-out);
 
-  background: $white;
-  border-left: 2px dotted $color-dk;
-  //border-top: 2px dotted $black;
-  top: 0;
-  position: absolute;
-  height: auto;
-  margin-right: 0;
-  margin-left: 20px; 
-  width: 90%;
-  &.is-offscreen {       
-    margin-left: calc(100% - 10px);
-  }
-  @include bp(phablet, true) {
-    right: 0px;
-    width: 40%;
-    padding: 2em 2em 5em 2em;
-    margin-left: 10px; 
-    &.is-offscreen {      
-      margin-right: calc(-40% + 10px);      
-    }
-    
-  }
-  @include bp(tablet, true) {
-    width: 30%;
-    &.is-offscreen {      
-      margin-right: calc(-30% + 10px);      
-    }
-  }
+	background: $white;
+	border-left: 2px dotted $color-dk;
+	//border-top: 2px dotted $black;
+	top: 0;
+	position: absolute;
+	height: auto;
+	margin-right: 0;
+	margin-left: 20px; 
+	width: 90%;
+	&.is-offscreen {			
+		margin-left: calc(100% - 10px);
+	}
+	@include bp(phablet, true) {
+		right: 0px;
+		width: 40%;
+		padding: 2em 2em 5em;
+		margin-left: 10px; 
+		&.is-offscreen {		
+			margin-right: calc(-40% + 10px);		
+		}
+		
+	}
+	@include bp(tablet, true) {
+		width: 30%;
+		&.is-offscreen {		
+			margin-right: calc(-30% + 10px);		
+		}
+	}
 
-  
-  button {
-    display: block;
-    position: absolute;
-    top: -2px;
-    left: -40px;
-    background: $color-dk;
-    height: 200px;
-    width: 40px;
-    border: 0;
-    span {
-      color: $white;
-      display: block;
-      font-size: $txt-l;
-      @include rotate(90deg);
-    }
-  }
+	
+	button {
+		display: block;
+		position: absolute;
+		top: -2px;
+		left: -40px;
+		background: $color-dk;
+		height: 200px;
+		width: 40px;
+		border: 0;
+		span {
+			color: $white;
+			display: block;
+			font-size: $txt-l;
+			@include rotate(90deg);
+		}
+	}
 
-  
-  
+	
+	
 
 }
-.post, .two-cols {
-  @extend %clearfix;
-  .content {
-    width: 95%;
-    padding: 0 2em;
-  }  
-  aside {
-    margin-top: 5em;
-  } 
-  //for wider screens, sidebar is always on screen
-  @include bp(widescreen) {
-    .content {
-      width: 70%;
-      float: left;
-    }
-    aside {
-      position: relative;
-      width: 30%;
-      float: right;
-      &.is-offscreen {      
-        margin-right: 0;    
-        margin-left: 0;  
-      }
-      button {
-        display: none;
-      }
-    }
-  }
+.post, 
+.two-cols {
+	@extend %clearfix;
+	.content {
+		width: 95%;
+		padding: 0 2em;
+	}  
+	aside {
+		margin-top: 5em;
+	} 
+	//for wider screens, sidebar is always on screen
+	@include bp(widescreen) {
+		.content {
+			width: 70%;
+			float: left;
+		}
+		aside {
+			position: relative;
+			width: 30%;
+			float: right;
+			&.is-offscreen {			
+				margin-right: 0;
+				margin-left: 0;  
+			}
+			button {
+				display: none;
+			}
+		}
+	}
 }
 
 .two-cols .content {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 
 .nav-box {
-  padding: 0.5em 1em;
-  background: $color-faint;
-  margin-bottom: 2em;
+	padding: 0.5em 1em;
+	background: $color-faint;
+	margin-bottom: 2em;
 }
-/* .welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-} */

@@ -20,7 +20,9 @@
 /*.sublime-workspace
 /*.sublime-project
 
-
+# ignore scss-lint report
+/scss-lint-report.xml
 
 # ignore notes
 /_NOTES
+/node_modules

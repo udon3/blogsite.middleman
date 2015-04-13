@@ -8,6 +8,7 @@ A skeleton site to use as base for a Middleman blog site with a simple search an
 
 - Use the navtree extension and add bread crumbs or dynamic sitemap?
 - this readme needs updating for general consumption
+- add grunt workflow
 
 ## PRODUCTION NOTES 
 
@@ -55,14 +56,15 @@ The search results page is here: `/source/search/search_template.html.haml` (get
 Using [https://getsimpleform.com/](https://getsimpleform.com/) with additional front-end validation
 
 
-## LOCAL TECH SETUP FOR THIS PROJECT:
+## LOCAL SETUP FOR THIS PROJECT:
 
-- Ruby 2.0 + DevKit (Windows)
+- Ruby 2.0 + DevKit (Windows) 
 
-- Middleman and Middleman-blog (see gemfile)
+- Middleman and Middleman-blog (see gemfile) 
 
-- Middleman-navtree extension has been activated but remains unused
+- Middleman-navtree extension has been activated but remains unused 
 
+- node.js and Grunt (for linting)
 
 
 ### Site source folder structure
@@ -98,7 +100,9 @@ MM's default structure muddled assets, templates and content, so changed content
 
 Middleman still builds the site to `/build/` folder.
 
+#### SCSS
 
+SASS files concatenated and compiled (by Middleman) to `/build/assets/css/all.css`
 
 #### JS 
 

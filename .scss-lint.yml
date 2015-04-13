@@ -1,0 +1,82 @@
+---
+# ref https://github.com/brigade/scss-lint/blob/master/config/default.yml
+## Custom settings and expected warnings marked with "##"
+linters:
+  BorderZero:   # border : 0 is preferred over border: none
+    enabled: true
+  CapitalizationInSelector: # all class names should be in lowercase
+    enabled: false
+  ColorKeyword: # use color in hex rather than name
+    enabled: false
+  Comment: 
+    enabled: false
+  DeclarationOrder: # Rule sets should start with @extend declarations, followed by properties and nested rule sets, in that order
+    enabled: false
+  ElsePlacement: # @else should be placed on same line as previous curly brace
+    enabled: false
+  EmptyLineBetweenBlocks: # Rule declaration should be preceded by an empty line
+    enabled: false
+  FinalNewline: # Files should end with a trailing newline
+    enabled: false
+  HexNotation: # Color `#721B09` should be written as `#721b09`
+    enabled: true
+  IdSelector:
+    enabled: false
+  ImportantRule:
+    enabled: true ## Warnings expected on header main nav styling for active elements, and styles in _state.css (dynamic add of temporary classes to override styles)
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: tab ## Custom setting to tab(equivalent to 2 spaces) # space or 'tab'
+    width: 1
+  LeadingZero: # `0.18` should be written without a leading zero as `.18`
+    enabled: false
+  MergeableSelector:
+    enabled: true
+    force_nesting: false
+  NameFormat: # Name of placeholder `block-list__link` should be written in lowercase with hyphens instead of underscores
+    enabled: false
+  NestingDepth:
+    enabled: true
+    max_depth: 3
+  PlaceholderInExtend:
+    enabled: false
+  PropertySortOrder: # Properties should be sorted in order, with vendor-prefixed extensions before the standardized CSS property
+    enabled: false
+  QualifyingElement:
+    enabled: true
+    allow_element_with_attribute: true ## Custom setting: have set to true, but be aware: it allows unqualified attribute selectors and should be avoided (performance hit)
+    allow_element_with_class: true
+    allow_element_with_id: false
+  SelectorDepth:
+    enabled: true
+    max_depth: 4 ## Custom setting: Setting higher than 3 to allow for some exceptions, e.g. for IE sepecific styling which require additional ancestor class
+  SelectorFormat:
+    enabled: false
+    #convention: hyphenated_lowercase # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+
+  SingleLinePerSelector: # Each selector in a comma sequence should be on its own line
+    enabled: true
+  SpaceAfterComma: # Commas in function arguments should be followed by a single space
+    enabled: true
+  SpaceAfterPropertyColon: # Colon after property should be followed by one space
+    enabled: true
+  SpaceBeforeBrace: # Opening curly brace `{` should be preceded by one space
+    enabled: false
+  SpaceBetweenParens: # Expected 0 spaces between parentheses instead of 1
+    enabled: false
+  StringQuotes: # Prefer single quoted strings
+    enabled: true
+  TrailingSemicolon: # Declaration should not have a space before the terminating semicolon
+    enabled: true
+  UnnecessaryParentReference: # Unnecessary parent selector (&)
+    enabled: false
+  UrlQuotes:
+    enabled: false
+  VendorPrefix:
+    enabled: true
+    identifier_list: base
+    additional_identifiers: []
+    excluded_identifiers: []
+  ZeroUnit: # `0px` should be written without units as `0`
+    enabled: false

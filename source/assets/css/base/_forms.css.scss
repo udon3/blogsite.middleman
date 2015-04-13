@@ -19,7 +19,8 @@ label {
 	}
 }
 
-input, textarea {
+input, 
+textarea {
 	display: block;
 	margin: 0 0 1.4em;
 	width: 100%;
@@ -27,13 +28,9 @@ input, textarea {
 	@include bp(phablet, true){
 		width: 70%;
 
-		&:not([type=submit]) {
-
-		}
+		//&:not([type=submit]) {}
 		//for old IE (lacking support for :not())
-		@include old-ie { 														      
-		  
-		}
+		//@include old-ie { }
 	}
 	
 	
@@ -42,7 +39,7 @@ input, textarea {
 textarea {
 	height: 10em;
 }
-input[type=submit]{
+input[type=submit]{ //this is an unqualified attribute selector and should be avoided due to performance hit
 	width: 8em;
 	float: right;
 }

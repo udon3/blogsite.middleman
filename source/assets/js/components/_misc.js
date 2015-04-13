@@ -41,4 +41,4 @@ BLOGSITE.Misc = {
 	}
 
 
-}
+};
