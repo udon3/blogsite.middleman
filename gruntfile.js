@@ -8,7 +8,7 @@ module.exports = function (grunt) {
     htmlhint: {
       build: {
         options: {
-          'tag-pair': true,
+          'tag-pair': false,
           'tagname-lowercase': true,
           'attr-lowercase': true,
           'doctype-first': true,
@@ -54,9 +54,9 @@ module.exports = function (grunt) {
 
   /* grunt tasks */
   // Linting tasks 
-  grunt.registerTask('htmllint', ['htmlhint']);
-  grunt.registerTask('jslint', ['jshint']);
-  grunt.registerTask('styles', ['scsslint']);
+  grunt.registerTask('html', ['htmlhint']);
+  grunt.registerTask('js', ['jshint']);
+  grunt.registerTask('sass', ['scsslint']);
 
  
 
