@@ -1,5 +1,6 @@
 ---
 # ref https://github.com/brigade/scss-lint/blob/master/config/default.yml
+# ref https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
 ## Custom settings and expected warnings marked with "##"
 linters:
   BorderZero:   # border : 0 is preferred over border: none
