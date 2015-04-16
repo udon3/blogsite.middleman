@@ -27,5 +27,5 @@ gem "middleman-blog", "3.5.3"
 #gem 'middleman-deploy', '~> 1.0.0'
 
 gem "scss-lint"
-gem "jslint", "~> 1.2.0"
+# gem "jslint", "~> 1.2.0"
 
